@@ -1,0 +1,77 @@
+body {
+    font-family: 'Rock Salt', cursive;
+    font-size: smaller;
+    color: #fff;
+    margin: 0;
+    background: #000;
+    border-radius: 25%;
+}
+
+.container {
+    border-radius: 25%;
+    width: 320px;
+    margin: 0 auto;
+    padding: 10px 25px 0px;
+   background: #000;
+   
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.match {
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.match h2 {
+    color: #ffcc00;
+    
+}
+
+.match .images {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.match .images img {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid #ffcc00;
+}
+
+.match .vs {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin: 0 20px;
+}
+
+.score-details {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-details p {
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.venue {
+    color: #999;
+    margin-top: -3px;
+}
+
+.status {
+    font-style: italic;
+    color: #007bff;
+    margin-bottom: -12px;
+}
